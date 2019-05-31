@@ -1,0 +1,239 @@
+
+
+/*=======================================Desktop Nav Bar Styles====================================*/
+
+.header-color {
+  background: #e96443;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-animation-name: background-change;
+    -webkit-animation-duration: infinite;
+    animation-name: background-change;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes background-change {
+  0% {background: -webkit-linear-gradient(to right, #904e95, #e96443); background: linear-gradient(to right, #904e95, #e96443);   background: #e96443;}
+  50% {background: -webkit-linear-gradient(to right, #ad5389, #3c1053); background: linear-gradient(to right, #ad5389, #3c1053);  background: #ad5389;}
+  100% {background: -webkit-linear-gradient(to right, #904e95, #e96443); background: linear-gradient(to right, #904e95, #e96443);   background: #e96443;}
+}
+
+-webkit @keyframes background-change {
+  0% {background: -webkit-linear-gradient(to right, #904e95, #e96443); background: linear-gradient(to right, #904e95, #e96443);   background: #e96443;}
+  50% {background: -webkit-linear-gradient(to right, #ad5389, #3c1053); background: linear-gradient(to right, #ad5389, #3c1053);  background: #ad5389;}
+  100% {background: -webkit-linear-gradient(to right, #904e95, #e96443); background: linear-gradient(to right, #904e95, #e96443);   background: #e96443;}
+}
+
+
+/*=======================================Landing Page Page Styles====================================*/
+
+.landing-grid {
+  background: #e96443;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+    -webkit-animation-name: background-color-change;
+    -webkit-animation-duration: infinite;
+    animation-name: background-color-change;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 8em;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.c-content {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .avatar-img {
+    height: 150px;
+    width: auto;
+  }
+  .banner-text h1{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .avatar-img {
+    height: 100px;
+    width: auto;
+  }
+  .banner-text h1{
+    font-size: 20px;
+  }
+}
+
+
+/*=======================================Project Page Styles====================================*/
+
+.projects-grid {
+  display: flex;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .projects-grid{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .social-links {
+    width: 100%;
+  }
+  .category-tabs {
+    margin-top: 10%;
+  }
+}
+/*=======================================Contact Page Styles====================================*/
+.contact-body {
+  margin:auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px solid black;
+    border-radius: 100%;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-text {
+    font-size: 13px;
+  }
+}
+
+/*=======================================Resume Page Styles====================================*/
+
+.resume-right-col {
+  padding: 2em;
+    background-color: #2a2a2a;
+    color: white;
+
+
+}
+
+
+/*=======================================About Me Page Styles====================================*/
+
+.about-container {
+  display: flex;
+  margin: auto;
+  margin-top: 10%;
+}
+
+/*=======================================Animation Styles====================================*/
+.detail-page {
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100vh;
+  background-color: #03a9f4;
+  transition: transform 0.5s, opacity 0.5s;
+
+  &.transition-appear {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  &.transition-appear.transition-appear-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  &.transition-leave {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  &.transition-leave.transition-leave-active {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+
+/*=======================================End of Styles====================================*/
