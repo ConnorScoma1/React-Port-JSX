@@ -93,248 +93,267 @@ class Projects extends Component {
 
             {/* Second HTML/CSS Project */}
             <Cell col={3}>
-            <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
-                }}
-              >
-                Tunafy
-              </CardTitle>
-
-              <CardText>
-                Search Engine for Music Pull Data From Multiple API's
-              </CardText>
-
-              <CardActions border>
-                <a
-                  href="https://github.com/rcliffd/projectweek1"
-                  target="_blank"
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
+                  }}
                 >
-                  <Button colored>Click To Visit</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
+                  Tunafy
+                </CardTitle>
+
+                <CardText>
+                  Search Engine for Music Pull Data From Multiple API's
+                </CardText>
+
+                <CardActions border>
+                  <a
+                    href="https://github.com/rcliffd/projectweek1"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
             </Cell>
 
-                {/* Thrid HTML/CSS Project */}
+            {/* Thrid HTML/CSS Project */}
             <Cell col={3}>
-            <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
-                }}
-              >
-                First Web Dev Portfolio Out of College
-              </CardTitle>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
+                  }}
+                >
+                  First Web Dev Portfolio Out of College
+                </CardTitle>
 
-              <CardText>
-                This is a Basic HTML/CSS portfolio website with some JQuery.
-              </CardText>
+                <CardText>
+                  This is a Basic HTML/CSS portfolio website with some JQuery.
+                </CardText>
 
-              <CardActions border>
-                <a href="https://connorscoma1.github.io/port1/" target="_blank">
-                  <Button colored>Click To Visit</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
+                <CardActions border>
+                  <a
+                    href="https://connorscoma1.github.io/port1/"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
             </Cell>
 
-                {/*Fourth HTML/CSS Project  */}
-              <Cell col={3}>
-            <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
-                }}
-              >
-                HTML/CSS Portfolio with some JavaScript
-              </CardTitle>
+            {/*Fourth HTML/CSS Project  */}
+            <Cell col={3}>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
+                  }}
+                >
+                  HTML/CSS Portfolio with some JavaScript
+                </CardTitle>
 
-              <CardText>
-                Single
-                page application to improve load performace.
-              </CardText>
+                <CardText>
+                  Single page application to improve load performace.
+                </CardText>
 
-              <CardActions border>
-                <a href="http://connorscoma.me/" target="_blank">
-                  <Button colored>Click To Visit</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
+                <CardActions border>
+                  <a href="http://connorscoma.me/" target="_blank">
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
             </Cell>
           </Grid>
           {/* End Of First Row */}
-          
         </div>
-
-        
       );
     } else if (this.state.activeTab === 2) {
       /*==========================================JavaScript Projects==========================================*/
       return (
         <div className="projects-grid">
-          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
-              }}
-            >
-              API/AJAX Giphy
-            </CardTitle>
+          <Grid className="javaScriptProjects">
+            {/* Project 1 */}
+            <Cell col={3}>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
+                  }}
+                >
+                  API/AJAX Giphy
+                </CardTitle>
 
-            <CardText>This application Prepends a Bunch of Gifs</CardText>
+                <CardText>This application Prepends a Bunch of Gifs</CardText>
 
-            <CardActions border>
-              <a
-                href="https://github.com/ConnorScoma1/Giphy-Viewer"
-                target="_blank"
-              >
-                <Button colored>Click To Visit</Button>
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+                <CardActions border>
+                  <a
+                    href="https://github.com/ConnorScoma1/Giphy-Viewer"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
 
-          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
-              }}
-            >
-              Trivia Game jQuery
-            </CardTitle>
+            {/* Project 2 */}
+            <Cell col={3}>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
+                  }}
+                >
+                  Trivia Game jQuery
+                </CardTitle>
 
-            <CardText>
-              This Site was built with mostly JS and Jquery it is a fun Trivia
-              Game
-            </CardText>
+                <CardText>
+                  This Site was built with mostly JS and Jquery it is a fun
+                  Trivia Game
+                </CardText>
 
-            <CardActions border>
-              <a
-                href="https://github.com/ConnorScoma1/TriviaGame"
-                target="_blank"
-              >
-                <Button colored>Click To Visit</Button>
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+                <CardActions border>
+                  <a
+                    href="https://github.com/ConnorScoma1/TriviaGame"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
 
-          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
-              }}
-            >
-              Trivia Game jQuery
-            </CardTitle>
+            {/* Project 3 */}
+            <Cell col={3}>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
+                  }}
+                >
+                  Trivia Game jQuery
+                </CardTitle>
 
-            <CardText>
-              This Site was built with mostly JS and Jquery it is a fun Trivia
-              Game
-            </CardText>
+                <CardText>
+                  This Site was built with mostly JS and Jquery it is a fun
+                  Trivia Game
+                </CardText>
 
-            <CardActions border>
-              <a
-                href="https://github.com/ConnorScoma1/TriviaGame"
-                target="_blank"
-              >
-                <Button colored>Click To Visit</Button>
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+                <CardActions border>
+                  <a
+                    href="https://github.com/ConnorScoma1/TriviaGame"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
 
-          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
-              }}
-            >
-              Prime Number Calculator JS App
-            </CardTitle>
+            {/* Project 4 */}
+            <Cell col={3}>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
+                  }}
+                >
+                  Prime Number Calculator JS App
+                </CardTitle>
 
-            <CardText>This Application Calculates Prime Numbers.</CardText>
+                <CardText>This Application Calculates Prime Numbers.</CardText>
 
-            <CardActions border>
-              <a
-                href="https://code.sololearn.com/W49AfOy8RprQ/#js"
-                target="_blank"
-              >
-                <Button colored>Click To Visit</Button>
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+                <CardActions border>
+                  <a
+                    href="https://code.sololearn.com/W49AfOy8RprQ/#js"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
 
-          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
-              }}
-            >
-              JS Portfolio Website
-            </CardTitle>
+            {/* Project 5 */}
 
-            <CardText>
-              This is one of my JavaScript Portfolio Websites it is not
-              completely finshed.
-            </CardText>
+            <Cell col={3}>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
+                  }}
+                >
+                  JS Portfolio Website
+                </CardTitle>
 
-            <CardActions border>
-              <a href="https://connorscoma1.github.io/jsport/#" target="_blank">
-                <Button colored>Click To Visit</Button>
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+                <CardText>
+                  This is one of my JavaScript Portfolio Websites it is not
+                  completely finshed.
+                </CardText>
+
+                <CardActions border>
+                  <a
+                    href="https://connorscoma1.github.io/jsport/#"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
+          </Grid>
         </div>
       );
-      
     } else if (this.state.activeTab === 3) {
       /*==========================================C++ Projects==========================================*/
       return (
