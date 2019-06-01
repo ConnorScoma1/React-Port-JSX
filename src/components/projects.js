@@ -24,8 +24,9 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
+          <Grid className="reactProjectGrid">
           {/* React Project 1 */}
-          <Cell col={3}>
+          <Cell col={4}>
             <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
@@ -39,9 +40,7 @@ class Projects extends Component {
               </CardTitle>
 
               <CardText>
-                Connor Scoma current Front-End Web Developer portfolio site.
-                This portfolio is entirely made from Node.js and React.JS . You
-                are currently Viewing this Site.
+                My current Fullstack Developer portfolio site, You Are Currently Here
               </CardText>
 
               <CardActions border>
@@ -54,6 +53,65 @@ class Projects extends Component {
               </CardMenu>
             </Card>
           </Cell>
+
+          {/* React Project 2 */}
+          <Cell col={4}>
+            <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(http://mobinteg.com/wp-content/uploads/2015/03/news_img-1.png) center / cover"
+                }}
+              >
+                React YouTube API Search
+              </CardTitle>
+
+              <CardText>
+                React YouTube Search is an application that hits the YT API and callsback your search
+              </CardText>
+
+              <CardActions border>
+                <a href="http://connorscoma.me" target="_blank">
+                  <Button colored>Click To Visit</Button>
+                </a>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </Cell>
+
+          {/* React Project 1 */}
+          <Cell col={4}>
+            <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(http://mobinteg.com/wp-content/uploads/2015/03/news_img-1.png) center / cover"
+                }}
+              >
+                React Book Search
+              </CardTitle>
+
+              <CardText>
+                React Book Search is a Simple Application using React/Redux
+              </CardText>
+
+              <CardActions border>
+                <a href="http://connorscoma.me" target="_blank">
+                  <Button colored>Click To Visit</Button>
+                </a>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </Cell>
+          </Grid>
         </div>
       );
     } else if (this.state.activeTab === 1) {
@@ -358,6 +416,10 @@ class Projects extends Component {
       /*==========================================C++ Projects==========================================*/
       return (
         <div className="c-content">
+        <Grid className="cPlusPlusProjects">
+
+        {/* C++ Project 1 */}
+          <Cell col={12}>
           <Card shadow={5} style={{ width: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -387,6 +449,8 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          </Cell>
+          </Grid>
         </div>
       );
     }
