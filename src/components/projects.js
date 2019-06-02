@@ -25,7 +25,6 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Grid className="reactProjectGrid">
-          {/* React Project 1 */}
           <Cell col={4}>
             <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
               <CardTitle
@@ -36,15 +35,15 @@ class Projects extends Component {
                     "url(http://mobinteg.com/wp-content/uploads/2015/03/news_img-1.png) center / cover"
                 }}
               >
-                Connor Scoma Portfolio Site
+                React Portfolio
               </CardTitle>
 
               <CardText>
-                My current Fullstack Developer portfolio site, You Are Currently Here
+                This is My React Portfolio
               </CardText>
 
               <CardActions border>
-                <a href="http://connorscoma.me" target="_blank">
+                <a href="#" target="_blank">
                   <Button colored>Click To Visit</Button>
                 </a>
               </CardActions>
@@ -113,6 +112,7 @@ class Projects extends Component {
           </Cell>
           </Grid>
         </div>
+        
       );
     } else if (this.state.activeTab === 1) {
       /*==========================================HTML/CSS Projects==========================================*/

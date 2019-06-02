@@ -127,6 +127,10 @@
     margin: auto;
 }
 
+.slideAnimationOnTheProjectsPage {
+  animation: ease 1s slideRight;
+}
+
 @media only screen and (max-width: 600px) {
   .projects-grid{
     display: inline-block;
@@ -181,6 +185,14 @@
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+}
+
+.rightSideContactPage {
+  animation: 1s ease slideLeft;
+}
+.leftSideContactPage {
+  animation: 1s ease slideRight;
+
 }
 
 @media only screen and (max-width: 600px) {
