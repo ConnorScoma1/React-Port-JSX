@@ -23,7 +23,7 @@ class About extends Component {
 
           <Cell col={8}>
             <h4>
-            Hello, my name is Connor Scoma. <br /> 
+            Hello, my name is Connor Scoma. <br />
             I am a Full Stack Web Developer and an entrepreneur. <br /> 
             Feel free to take a look at my latest projects on my portfolio page.<br /> 
             I have been developing as a freelancer for a few years. <br /> 
@@ -31,6 +31,8 @@ class About extends Component {
             The best form of contacting me is on the contact page.<br /> 
             </h4>
           </Cell>
+
+          
           
           {/* <Card shadow={5} style={{width: '350px', margin: 'auto'}}>
             <CardTitle style={{color: 'Black', height: '176px', background: 'url(http://redpithemes.com/Documentation/assets/img/page_bg/page_bg_01.jpg) center / cover'}}>About Me</CardTitle>
