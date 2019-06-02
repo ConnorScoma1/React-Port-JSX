@@ -12,6 +12,7 @@ class Resume extends Component {
 
         <Grid>
           <Cell col={4}>
+          <div className="LeftSideAnimation">
             <div style={{textAlign: 'center'}}>
               <img
                 src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"
@@ -19,7 +20,7 @@ class Resume extends Component {
                 style={{height: '200px'}}
                 />
             </div>
-
+           
               <h2 style={{padding: 'top'}}>Connor Scoma</h2>
                 <h4 style={{color: 'grey'}}>Programer</h4>
                   <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
@@ -37,10 +38,16 @@ class Resume extends Component {
                       <p>(414) 837-0007</p>
                     <h5>E-Mail</h5>
                       <p>connorscoma@gmail.com</p>
+                      <a className="resumeAnchor" href="https://github.com/ConnorScoma1">
+                    <h5>GitHub</h5>
+                      </a>
+                      <a className="resumeAnchor" href="https://www.linkedin.com/in/connor-scoma-92730331/">
+                    <h5>Linkedin</h5>
+                      </a>
                   
 
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-
+                  </div>
           </Cell>
 
 
