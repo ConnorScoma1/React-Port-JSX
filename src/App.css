@@ -221,6 +221,14 @@
   margin-top: 10%;
 }
 
+.rightSideAboutPage {
+  animation: ease 1s slideLeft;
+}
+
+.leftSideAboutPage {
+  animation: ease 1s slideRight;
+}
+
 /*=======================================Animation Styles====================================*/
 .detail-page {
   overflow: auto;
