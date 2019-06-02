@@ -73,7 +73,7 @@ class Projects extends Component {
               </CardText>
 
               <CardActions border>
-                <a href="http://connorscoma.me" target="_blank">
+                <a href="https://github.com/ConnorScoma1/YouTube-Search-App" target="_blank">
                   <Button colored>Click To Visit</Button>
                 </a>
               </CardActions>
@@ -83,7 +83,7 @@ class Projects extends Component {
             </Card>
           </Cell>
 
-          {/* React Project 1 */}
+          {/* React Project 3 */}
           <Cell col={4}>
             <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
               <CardTitle
@@ -102,7 +102,7 @@ class Projects extends Component {
               </CardText>
 
               <CardActions border>
-                <a href="http://connorscoma.me" target="_blank">
+                <a href="https://github.com/ConnorScoma1/Book-selector" target="_blank">
                   <Button colored>Click To Visit</Button>
                 </a>
               </CardActions>
