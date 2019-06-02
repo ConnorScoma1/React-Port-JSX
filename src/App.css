@@ -29,9 +29,9 @@
 /*=======================================Landing Page Page Styles====================================*/
 
 .landing-grid {
-  background: #e96443;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #e96443;  */
+  /* background: -webkit-linear-gradient(to right, #904e95, #e96443);
+  background: linear-gradient(to right, #904e95, #e96443);  */
   position: fixed;
   top: 0;
   left: 0;
@@ -42,7 +42,7 @@
     -webkit-animation-duration: infinite;
     animation-name: background-color-change;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 5s;
 }
 
 .avatar-img {
@@ -50,15 +50,17 @@
   padding-top: 8em;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
-
+    animation: ease 1s slideLeft;
 }
 
 .banner-text {
   background-color: black;
+  transition: ease .4s;
   opacity: .8;
   width: 75%;
   margin:auto;
   border-radius: 10px;
+  animation: slideRight ease 1s;
 }
 
 .banner-text h1 {
