@@ -127,10 +127,10 @@ class Projects extends Component {
                     color: "#fff",
                     height: "176px",
                     background:
-                      "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
+                      "url(https://wallpapercave.com/wp/wp2885468.jpg) center / cover"
                   }}
                 >
-                  Chris & Tanya Wedding Site
+                  First Portfolio Bootcamp
                 </CardTitle>
 
                 <CardText>
@@ -157,7 +157,7 @@ class Projects extends Component {
                     color: "#fff",
                     height: "176px",
                     background:
-                      "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
+                      "url(https://wallpapercave.com/wp/wp2885468.jpg) center / cover"
                   }}
                 >
                   Tunafy
@@ -189,7 +189,7 @@ class Projects extends Component {
                     color: "#fff",
                     height: "176px",
                     background:
-                      "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
+                      "url(https://wallpapercave.com/wp/wp2885468.jpg) center / cover"
                   }}
                 >
                   First Web Dev Portfolio Out of College
@@ -221,7 +221,7 @@ class Projects extends Component {
                     color: "#fff",
                     height: "176px",
                     background:
-                      "url(http://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png) center / cover"
+                      "url(https://wallpapercave.com/wp/wp2885468.jpg) center / cover"
                   }}
                 >
                   HTML/CSS Portfolio with some JavaScript
@@ -232,7 +232,7 @@ class Projects extends Component {
                 </CardText>
 
                 <CardActions border>
-                  <a href="http://connorscoma.me/" target="_blank">
+                  <a href="https://connorscoma1.github.io/portfolio/" target="_blank">
                     <Button colored>Click To Visit</Button>
                   </a>
                 </CardActions>
@@ -291,17 +291,16 @@ class Projects extends Component {
                       "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
                   }}
                 >
-                  Trivia Game jQuery
+                  Gem Collector
                 </CardTitle>
 
                 <CardText>
-                  This Site was built with mostly JS and Jquery it is a fun
-                  Trivia Game
+                  Collect All the Gems
                 </CardText>
 
                 <CardActions border>
                   <a
-                    href="https://github.com/ConnorScoma1/TriviaGame"
+                    href="https://github.com/ConnorScoma1/unit-4-game"
                     target="_blank"
                   >
                     <Button colored>Click To Visit</Button>
