@@ -39,7 +39,7 @@ class About extends Component {
 
             <h4 id="aboutMeTextAnimation">
            
-             I am passionate about building excellent applications that will improve day to day lifes.<br />
+             I am passionate about building excellent applications that will improve day to day lives.<br />
              I specialize in creating web apps for clients, all <br />
              of my work is produced locally. What would you do <br />
              if you had a Web expert available at your fingertips?<br />
