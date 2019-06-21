@@ -25,94 +25,74 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Grid className="reactProjectGrid">
-          <Cell col={4}>
-            <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(http://mobinteg.com/wp-content/uploads/2015/03/news_img-1.png) center / cover"
-                }}
-              >
-                React Portfolio
-              </CardTitle>
+            <Cell col={6}>
+              <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(http://mobinteg.com/wp-content/uploads/2015/03/news_img-1.png) center / cover"
+                  }}
+                >
+                  React Portfolio
+                </CardTitle>
 
-              <CardText>
-                This is My React Portfolio
-              </CardText>
+                <CardText>
+                  This is My React Portfolio, You're Currently Looking At My
+                  Projects
+                </CardText>
 
-              <CardActions border>
-                <a href="#" target="_blank">
-                  <Button colored>Click To Visit</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-          </Cell>
+                <CardActions border>
+                  <a
+                    href="http://connorscoma.me"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
 
-          {/* React Project 2 */}
-          <Cell col={4}>
-            <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(http://mobinteg.com/wp-content/uploads/2015/03/news_img-1.png) center / cover"
-                }}
-              >
-                React YouTube API Search
-              </CardTitle>
+            {/* React Project 2 */}
+            <Cell col={6}>
+              <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(http://mobinteg.com/wp-content/uploads/2015/03/news_img-1.png) center / cover"
+                  }}
+                >
+                  React YouTube API Search
+                </CardTitle>
 
-              <CardText>
-                React YouTube Search is an application that hits the YT API and callsback your search
-              </CardText>
+                <CardText>
+                  React YouTube Search is an application that hits the YT API
+                  and callsback your search
+                </CardText>
 
-              <CardActions border>
-                <a href="https://github.com/ConnorScoma1/YouTube-Search-App" target="_blank">
-                  <Button colored>Click To Visit</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-          </Cell>
-
-          {/* React Project 3 */}
-          <Cell col={4}>
-            <Card shadow={5} style={{ minwidth: "450", margin: "auto" }}>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(http://mobinteg.com/wp-content/uploads/2015/03/news_img-1.png) center / cover"
-                }}
-              >
-                React Book Search
-              </CardTitle>
-
-              <CardText>
-                React Book Search is a Simple Application using React/Redux
-              </CardText>
-
-              <CardActions border>
-                <a href="https://github.com/ConnorScoma1/Book-selector" target="_blank">
-                  <Button colored>Click To Visit</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-          </Cell>
+                <CardActions border>
+                  <a
+                    href="https://github.com/ConnorScoma1/YouTube-Search-App"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
           </Grid>
         </div>
-        
       );
     } else if (this.state.activeTab === 1) {
       /*==========================================HTML/CSS Projects==========================================*/
@@ -120,7 +100,7 @@ class Projects extends Component {
         <div className="projects-grid">
           <Grid className="firstGrid">
             {/* First HTML/CSS Project */}
-            <Cell col={3}>
+            <Cell col={6}>
               <Card shadow={5} style={{ width: "450", margin: "auto" }}>
                 <CardTitle
                   style={{
@@ -130,16 +110,19 @@ class Projects extends Component {
                       "url(https://wallpapercave.com/wp/wp2885468.jpg) center / cover"
                   }}
                 >
-                  First Portfolio Bootcamp
+                  Single Page Portfolio
                 </CardTitle>
 
                 <CardText>
-                  This Site was made for guest to RSVP to the Chris Scoma and
-                  Tanya Anderson Wedding.
+                  This is a Static One Page Portfolio Site, Pretty Basic Concept
                 </CardText>
 
                 <CardActions border>
-                  <a href="https://connorscoma1.github.io/" target="_blank">
+                  <a
+                    href="https://connorscoma1.github.io/SinglePagePortfolio/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <Button colored>Click To Visit</Button>
                   </a>
                 </CardActions>
@@ -150,7 +133,7 @@ class Projects extends Component {
             </Cell>
 
             {/* Second HTML/CSS Project */}
-            <Cell col={3}>
+            <Cell col={6}>
               <Card shadow={5} style={{ width: "450", margin: "auto" }}>
                 <CardTitle
                   style={{
@@ -171,68 +154,8 @@ class Projects extends Component {
                   <a
                     href="https://github.com/rcliffd/projectweek1"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <Button colored>Click To Visit</Button>
-                  </a>
-                </CardActions>
-                <CardMenu style={{ color: "#fff" }}>
-                  <IconButton name="share" />
-                </CardMenu>
-              </Card>
-            </Cell>
-
-            {/* Thrid HTML/CSS Project */}
-            <Cell col={3}>
-              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-                <CardTitle
-                  style={{
-                    color: "#fff",
-                    height: "176px",
-                    background:
-                      "url(https://wallpapercave.com/wp/wp2885468.jpg) center / cover"
-                  }}
-                >
-                  First Web Dev Portfolio Out of College
-                </CardTitle>
-
-                <CardText>
-                  This is a Basic HTML/CSS portfolio website with some JQuery.
-                </CardText>
-
-                <CardActions border>
-                  <a
-                    href="https://connorscoma1.github.io/port1/"
-                    target="_blank"
-                  >
-                    <Button colored>Click To Visit</Button>
-                  </a>
-                </CardActions>
-                <CardMenu style={{ color: "#fff" }}>
-                  <IconButton name="share" />
-                </CardMenu>
-              </Card>
-            </Cell>
-
-            {/*Fourth HTML/CSS Project  */}
-            <Cell col={3}>
-              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-                <CardTitle
-                  style={{
-                    color: "#fff",
-                    height: "176px",
-                    background:
-                      "url(https://wallpapercave.com/wp/wp2885468.jpg) center / cover"
-                  }}
-                >
-                  HTML/CSS Portfolio with some JavaScript
-                </CardTitle>
-
-                <CardText>
-                  Single page application to improve load performace.
-                </CardText>
-
-                <CardActions border>
-                  <a href="https://connorscoma1.github.io/portfolio/" target="_blank">
                     <Button colored>Click To Visit</Button>
                   </a>
                 </CardActions>
@@ -250,36 +173,6 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Grid className="javaScriptProjects">
-            {/* Project 1 */}
-            <Cell col={3}>
-              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-                <CardTitle
-                  style={{
-                    color: "#fff",
-                    height: "176px",
-                    background:
-                      "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
-                  }}
-                >
-                  API/AJAX Giphy
-                </CardTitle>
-
-                <CardText>This application Prepends a Bunch of Gifs</CardText>
-
-                <CardActions border>
-                  <a
-                    href="https://github.com/ConnorScoma1/Giphy-Viewer"
-                    target="_blank"
-                  >
-                    <Button colored>Click To Visit</Button>
-                  </a>
-                </CardActions>
-                <CardMenu style={{ color: "#fff" }}>
-                  <IconButton name="share" />
-                </CardMenu>
-              </Card>
-            </Cell>
-
             {/* Project 2 */}
             <Cell col={3}>
               <Card shadow={5} style={{ width: "450", margin: "auto" }}>
@@ -295,13 +188,15 @@ class Projects extends Component {
                 </CardTitle>
 
                 <CardText>
-                  Collect All the Gems
+                  The Concpet of This Project Was to Make a Game Using Only JS
+                  Logic
                 </CardText>
 
                 <CardActions border>
                   <a
                     href="https://github.com/ConnorScoma1/unit-4-game"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Button colored>Click To Visit</Button>
                   </a>
@@ -323,18 +218,18 @@ class Projects extends Component {
                       "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
                   }}
                 >
-                  Trivia Game jQuery
+                  Liri Bot
                 </CardTitle>
 
                 <CardText>
-                  This Site was built with mostly JS and Jquery it is a fun
-                  Trivia Game
+                  This is a Console Bot That Has Similar Charactistics to Siri
                 </CardText>
 
                 <CardActions border>
                   <a
-                    href="https://github.com/ConnorScoma1/TriviaGame"
+                    href="https://github.com/ConnorScoma1/LIRI-Bot"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Button colored>Click To Visit</Button>
                   </a>
@@ -359,12 +254,16 @@ class Projects extends Component {
                   Prime Number Calculator JS App
                 </CardTitle>
 
-                <CardText>This Application Calculates Prime Numbers.</CardText>
+                <CardText>
+                  This Application Calculates Prime Numbers, Only Using
+                  JavaScript Logic
+                </CardText>
 
                 <CardActions border>
                   <a
                     href="https://code.sololearn.com/W49AfOy8RprQ/#js"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Button colored>Click To Visit</Button>
                   </a>
@@ -387,18 +286,19 @@ class Projects extends Component {
                       "url(https://wallpapercave.com/wp/wp2465927.jpg) center / cover"
                   }}
                 >
-                  JS Portfolio Website
+                  Node Guessing Game
                 </CardTitle>
 
                 <CardText>
-                  This is one of my JavaScript Portfolio Websites it is not
-                  completely finshed.
+                  This is a Node Console Guessing Game, programmed all in
+                  JavaScript
                 </CardText>
 
                 <CardActions border>
                   <a
-                    href="https://connorscoma1.github.io/jsport/#"
+                    href="https://github.com/ConnorScoma1/Node-Word-Guess"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Button colored>Click To Visit</Button>
                   </a>
@@ -415,40 +315,72 @@ class Projects extends Component {
       /*==========================================C++ Projects==========================================*/
       return (
         <div className="c-content">
-        <Grid className="cPlusPlusProjects">
+          <Grid className="cPlusPlusProjects">
+            {/* C++ Project 1 */}
+            <Cell col={6}>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(https://images7.alphacoders.com/486/486291.jpg) center / cover"
+                  }}
+                >
+                  Bulls // Cows
+                </CardTitle>
 
-        {/* C++ Project 1 */}
-          <Cell col={12}>
-          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://images7.alphacoders.com/486/486291.jpg) center / cover"
-              }}
-            >
-              Console Puzzle Game
-            </CardTitle>
+                <CardText>
+                  This is a C++ Console Guessing Game Using C Logic
+                </CardText>
 
-            <CardText>
-              This is the first C++ Game Ive Build from the Ground-up using C++,
-              and the windows command console.
-            </CardText>
+                <CardActions border>
+                  <a
+                    href="https://github.com/ConnorScoma1/StratagyWordPuzzel-CPP-Console-game"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
 
-            <CardActions border>
-              <a
-                href="https://github.com/ConnorScoma1/StratagyWordPuzzel-CPP-Console-game"
-                target="_blank"
-              >
-                <Button colored>Click To Visit</Button>
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          </Cell>
+            <Cell col={6}>
+              <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "176px",
+                    background:
+                      "url(https://wallpaperplay.com/walls/full/a/a/b/77626.jpg) center / cover"
+                  }}
+                >
+                  Random Name Generator
+                </CardTitle>
+
+                <CardText>
+                  This is a Python3 Project Using Random and String to Generate
+                  a Random Name
+                </CardText>
+
+                <CardActions border>
+                  <a
+                    href="https://github.com/ConnorScoma1/py-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button colored>Click To Visit</Button>
+                  </a>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+            </Cell>
           </Grid>
         </div>
       );
@@ -466,7 +398,7 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>HTML/CSS</Tab>
           <Tab>JavaScript</Tab>
-          <Tab>C++ Script</Tab>
+          <Tab>Programming</Tab>
         </Tabs>
 
         <Grid>

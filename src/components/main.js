@@ -1,4 +1,4 @@
-import React, { Component, ReactDOM  } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import LandingPage from './landingpage';

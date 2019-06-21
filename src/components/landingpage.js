@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-
-
 class Landing extends Component {
   render() {
     return (
@@ -22,12 +20,11 @@ class Landing extends Component {
 
               <p>
                 {" "}
-                React | Redux | AJAX | MongoDB | Firebase | jQuery | Node | JavaScript |
-                Bootstrap{" "}
+                React | SQL | AJAX | MongoDB | Firebase | Node | JavaScript |
+                Express{" "}
               </p>
 
               <div className="social-links">
-                {/*linkedin */}
                 <a
                   href="https://www.linkedin.com/in/connor-scoma-92730331/"
                   rel="noopener noreferrer"

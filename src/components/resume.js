@@ -38,14 +38,14 @@ class Resume extends Component {
                       <p>(414) 837-0007</p>
                     <h5>E-Mail</h5>
                       <p>connorscoma@gmail.com</p>
-                      <a className="resumeAnchor" target="_blank"  href="https://github.com/ConnorScoma1">
+                      <a className="resumeAnchor" rel = "noopener noreferrer" target="_blank"  href="https://github.com/ConnorScoma1">
                     <h5>GitHub</h5>
                       </a>
-                      <a className="resumeAnchor" target="_blank"  href="https://www.linkedin.com/in/connor-scoma-92730331/">
+                      <a className="resumeAnchor" rel = "noopener noreferrer" target="_blank"  href="https://www.linkedin.com/in/connor-scoma-92730331/">
                     <h5>Linkedin</h5>
                       </a>
 
-                      <a className="resumeAnchor" target="_blank"  href="https://drive.google.com/file/d/1dtRqXBFU3uL0p7evDnIuxpHIAV8Nqz6l/view">
+                      <a className="resumeAnchor" rel = "noopener noreferrer" target="_blank"  href="https://drive.google.com/file/d/1dtRqXBFU3uL0p7evDnIuxpHIAV8Nqz6l/view">
                     <h5>Download <br /> Resume</h5>
                       </a>
                   

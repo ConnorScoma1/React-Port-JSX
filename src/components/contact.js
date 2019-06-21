@@ -25,7 +25,7 @@ class Contact extends Component {
                 <hr />
                 <br />
                 Cell:{" "}
-                <a href="tel:414-837-0007" target="_blank">
+                <a href="tel:414-837-0007" target="_blank" rel="noopener noreferrer">
                   {" "}
                   (414) 837-0007
                 </a>

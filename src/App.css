@@ -95,10 +95,6 @@
   padding: 8px;
 }
 
-.c-content {
-  text-align: center;
-}
-
 @media only screen and (max-width: 600px) {
   .avatar-img {
     height: 150px;
@@ -127,9 +123,6 @@
     margin: auto;
 }
 
-.slideAnimationOnTheProjectsPage {
-  animation: ease 1s slideRight;
-}
 
 @media only screen and (max-width: 600px) {
   .projects-grid{
