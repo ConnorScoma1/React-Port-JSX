@@ -10,7 +10,7 @@
     -webkit-animation-duration: infinite;
     animation-name: background-change;
     animation-iteration-count: infinite;
-    animation-duration: 10s;
+    animation-duration: 5s;
 }
 
 @keyframes background-change {
@@ -223,7 +223,6 @@
 .about-container {
   display: flex;
   margin: auto;
-  margin-top: 10%;
 }
 
 .rightSideAboutPage {
